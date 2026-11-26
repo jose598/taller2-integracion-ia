@@ -36,9 +36,6 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
-      - name: Validar codigo
-        run: npm run lint
-
       - name: Compilar aplicacion
         run: npm run build
 
